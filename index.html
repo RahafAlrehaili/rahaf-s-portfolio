@@ -312,8 +312,38 @@
 
 <section id="projects">
   <div class="wrap">
-    <p class="eyebrow" data-en="Things I've Analyzed" data-ar="نماذج من تحليلاتي">Things I've Analyzed</p>
+    <p class="eyebrow" data-en="Things I've Built" data-ar="نماذج من أعمالي">Things I've Built</p>
     <h2 class="section-title" data-en="Featured Projects" data-ar="أبرز المشاريع">Featured Projects</h2>
+
+    <!-- Project: VOLTA -->
+    <div class="project">
+      <div class="project-top">
+        <div>
+          <h3 class="project-name" data-en="VOLTA — Electricity Price Forecasting" data-ar="VOLTA — التنبؤ بأسعار الكهرباء">VOLTA — Electricity Price Forecasting</h3>
+          <p class="project-role" data-en="Deep learning time-series forecasting · LSTM → Streamlit · 2026" data-ar="تنبؤ بالسلاسل الزمنية بالتعلم العميق · من LSTM إلى Streamlit · 2026">Deep learning time-series forecasting · LSTM → Streamlit · 2026</p>
+        </div>
+      </div>
+      <p class="project-desc" data-en="Built a deep learning model (LSTM) that forecasts Spain's hourly electricity price 24 hours ahead. Cleaned and validated 35,064 hourly records of energy, price and weather data — fixing duplicates, impossible readings and gaps — then compared LSTM and GRU architectures and improved accuracy through feature engineering and hyperparameter tuning." data-ar="بنيت نموذج تعلم عميق (LSTM) يتنبأ بسعر الكهرباء في إسبانيا لكل ساعة من الساعات الأربع والعشرين القادمة. نظّفت وتحققت من 35,064 سجلًا بالساعة لبيانات الطاقة والأسعار والطقس — وعالجت التكرارات والقراءات المستحيلة والفجوات — ثم قارنت بين معماريتي LSTM وGRU، وحسّنت الدقة عبر هندسة الخصائص وضبط المعاملات الفائقة.">Built a deep learning model (LSTM) that forecasts Spain's hourly electricity price 24 hours ahead. Cleaned and validated 35,064 hourly records of energy, price and weather data — fixing duplicates, impossible readings and gaps — then compared LSTM and GRU architectures and improved accuracy through feature engineering and hyperparameter tuning.</p>
+      <div class="stat-row">
+        <div class="stat"><b>4.03 €/MWh</b><span data-en="Test MAE (2018)" data-ar="متوسط الخطأ المطلق (2018)">Test MAE (2018)</span></div>
+        <div class="stat"><b>22.5%</b><span data-en="Better than Best Baseline" data-ar="أدق من أفضل نموذج مرجعي">Better than Best Baseline</span></div>
+        <div class="stat"><b>35,064</b><span data-en="Hourly Records" data-ar="سجل بالساعة">Hourly Records</span></div>
+        <div class="stat"><b>24h</b><span data-en="Forecast Horizon" data-ar="أفق التنبؤ">Forecast Horizon</span></div>
+      </div>
+      <div class="tag-row">
+        <span class="tag">Python</span>
+        <span class="tag">TensorFlow / Keras</span>
+        <span class="tag">LSTM · GRU</span>
+        <span class="tag" data-en="Time-Series Forecasting" data-ar="التنبؤ بالسلاسل الزمنية">Time-Series Forecasting</span>
+        <span class="tag">Streamlit</span>
+        <span class="tag" data-en="Team Project" data-ar="مشروع جماعي">Team Project</span>
+      </div>
+      <div class="project-links">
+        <a class="filled" href="https://xc6yrh3qvv8sbyvwziuvte.streamlit.app/" target="_blank" rel="noopener" data-en="Live Dashboard ↗" data-ar="لوحة التحكم المباشرة ↗">Live Dashboard ↗</a>
+        <a href="https://github.com/RahafAlrehaili/VOLTA" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+      <div class="takeaway" data-en="Trained on 2015–2017 and tested on 2018 — a year the model never saw — the forecast lands about 4 € from the real price. I turned it into an interactive Streamlit dashboard that <b>recommends the cheapest time to run household devices</b>." data-ar="بعد تدريب النموذج على بيانات 2015–2017 واختباره على عام 2018 الذي لم يره من قبل، جاء التنبؤ على بُعد 4 يورو تقريبًا من السعر الفعلي. وحوّلته إلى لوحة تحكم تفاعلية في Streamlit <b>توصي بأرخص وقت لتشغيل الأجهزة المنزلية</b>.">Trained on 2015–2017 and tested on 2018 — a year the model never saw — the forecast lands about 4 € from the real price. I turned it into an interactive Streamlit dashboard that <b>recommends the cheapest time to run household devices</b>.</div>
+    </div>
 
     <!-- Project 1 -->
     <div class="project">
